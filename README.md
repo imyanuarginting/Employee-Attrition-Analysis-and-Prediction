@@ -8,24 +8,22 @@ Tingkat attrition rate perusahaan telah melebihi 10%, yang berarti lebih dari 1 
 
 Manajer HR menyadari bahwa penyebab dari attrition ini bersifat kompleks dan tidak bisa dilihat dari satu sisi saja. Oleh karena itu, perusahaan ingin memanfaatkan pendekatan berbasis data untuk:
 
-    * Mengidentifikasi faktor-faktor yang paling berpengaruh terhadap keputusan karyawan untuk keluar dari perusahaan.
-
-    * Membangun sistem pemantauan yang dapat digunakan oleh tim HR untuk melakukan intervensi secara lebih cepat dan strategis.
-
-    * (Opsional) Memprediksi kemungkinan karyawan untuk keluar di masa depan, guna mendukung program retensi secara proaktif.
+   * Mengidentifikasi faktor-faktor yang paling berpengaruh terhadap keputusan karyawan untuk keluar dari perusahaan.
+   * Membangun sistem pemantauan yang dapat digunakan oleh tim HR untuk melakukan intervensi secara lebih cepat dan strategis.
+   * (Opsional) Memprediksi kemungkinan karyawan untuk keluar di masa depan, guna mendukung program retensi secara proaktif.
 
 Melalui pendekatan ini, perusahaan berharap dapat menekan tingkat attrition secara signifikan serta meningkatkan stabilitas dan kepuasan kerja di dalam organisasi.
 
 ### Permasalahan Bisnis
 
-    * Departemen HR kesulitan dalam mengidentifikasi karakteristik dan faktor-faktor utama yang menyebabkan karyawan mengundurkan diri dari perusahaan.
-    * Perusahaan belum memiliki sistem pemantauan yang efektif untuk mendeteksi dan mengantisipasi risiko attrition secara real-time.
+   * Departemen HR kesulitan dalam mengidentifikasi karakteristik dan faktor-faktor utama yang menyebabkan karyawan mengundurkan diri dari perusahaan.
+   * Perusahaan belum memiliki sistem pemantauan yang efektif untuk mendeteksi dan mengantisipasi risiko attrition secara real-time.
 
 ### Cakupan Proyek
 
-    * Melakukan identifikasi terhadap faktor-faktor utama yang berkontribusi terhadap tingginya tingkat attrition karyawan.
-    * Mengembangkan dashboard interaktif yang mudah digunakan untuk membantu tim HR memantau indikator attrition.
-    * Membangun model prediksi dengan tingkat akurasi yang memadai untuk mendukung upaya retensi karyawan secara proaktif (Opsional).
+   * Melakukan identifikasi terhadap faktor-faktor utama yang berkontribusi terhadap tingginya tingkat attrition karyawan.
+   * Mengembangkan dashboard interaktif yang mudah digunakan untuk membantu tim HR memantau indikator attrition.
+   * Membangun model prediksi dengan tingkat akurasi yang memadai untuk mendukung upaya retensi karyawan secara proaktif (Opsional).
 
 ### Persiapan
 
@@ -61,13 +59,13 @@ Melalui pendekatan ini, perusahaan berharap dapat menekan tingkat attrition seca
         deactivate
         ```
 
-Setup environment Jika Belum Membuat Container Metabase:
+Setup Environment Jika Belum Membuat Container Metabase:
 ```
 docker pull metabase/metabase:latest
 docker run -p 3000:3000 --name metabase metabase/metabase
 ```
 
-Setup environment Jika Sudah Membuat Container Metabase Sebelumnya:
+Setup Environment Jika Sudah Membuat Container Metabase Sebelumnya:
 ```
 docker start metabase
 ```
@@ -128,7 +126,7 @@ Berdasarkan hasil analisis multivariate yang mengaitkan berbagai kombinasi fitur
 5. Level Jabatan Awal:
      * Minimnya jenjang karier, pembinaan, dan gaji sering menjadi penyebab frustrasi di kalangan entry-level.
 
-### Rekomendasi Action Items (Optional)
+### Recommendation Action Items (Optional)
 
 1. **Kurangi beban lembur**, khususnya untuk karyawan muda dan berpenghasilan rendah.
 2. **Evaluasi ulang kompensasi** bagi kelompok risiko tinggi seperti “Young - Low Income”.
